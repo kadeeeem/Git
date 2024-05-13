@@ -49,3 +49,7 @@ git commit --amend
 # Edit the commit message within the text editor
 # Push the message change using the below command
 git push --force-with-lease origin
+
+References:
+https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message
+https://www.youtube.com/watch?v=FFaMqxpphjo
