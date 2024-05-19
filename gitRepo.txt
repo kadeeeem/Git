@@ -50,6 +50,16 @@ git commit --amend
 # Push the message change using the below command
 git push --force-with-lease origin
 
+# Initializing new repository from CLI
+git init
+git config --global init.defaultBranch <name>
+git config --global --add safe.directory /folderPath
+git add
+git commit
+git remote add origin git@github.com:kadeeeem/<repo.name>
+git push -u origin master
+
 References:
 https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message
 https://www.youtube.com/watch?v=FFaMqxpphjo
+https://kbroman.org/github_tutorial/pages/init.html
